@@ -2,6 +2,7 @@
 //Using SDL, SDL_image, standard IO, and, strings
 #include <SDL.h>
 #include <SDL_image.h>
+#include <SDL_ttf.h>
 #include <stdio.h>
 #include <string>
 
@@ -91,6 +92,9 @@ SDL_Window* gWindow = NULL;
 
 //The window renderer
 SDL_Renderer* gRenderer = NULL;
+
+//Globally used font
+TTF_Font *gFont = NULL;
 
 //Scene textures
 LTexture gSplashTexture;

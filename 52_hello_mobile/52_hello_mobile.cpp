@@ -1,6 +1,7 @@
 
 //Using SDL, standard IO, and, strings
 #include <SDL.h>
+#include <SDL_ttf.h>
 #include <stdio.h>
 #include <string>
 #include <string.h>
@@ -84,6 +85,9 @@ SDL_Window* gWindow = NULL;
 
 //The window renderer
 SDL_Renderer* gRenderer = NULL;
+
+//Globally used font
+TTF_Font *gFont = NULL;
 
 //Screen dimensions
 SDL_Rect gScreenRect = { 0, 0, 320, 240 };

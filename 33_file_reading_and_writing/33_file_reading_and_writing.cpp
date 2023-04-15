@@ -7,7 +7,10 @@
 #include <string>
 #include <sstream>
 
-
+// Fix the non-standard win32 C++ code
+#ifdef __linux__
+using _Longlong = long long;
+#endif
 
 
 //Screen dimension constants

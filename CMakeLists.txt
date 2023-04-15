@@ -39,7 +39,7 @@ set ( Lessons
   30_scrolling
   31_scrolling_backgrounds
   32_text_input_and_clipboard_handling
- # 33_file_reading_and_writing
+  33_file_reading_and_writing
   35_window_events
   36_multiple_windows
   37_multiple_displays
